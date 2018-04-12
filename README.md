@@ -23,3 +23,11 @@ Choose one of the password hashes from the database (preferably one that runs fo
 Brute-forcing passwords can take some time. What might be a better approach?  On the other hand, what is one guarantee our algorithm can provide that others may not be able to?
 
 (your answer)
+
+Brute forcing is time consuming because every possible combination of letters and numbers needs to be tried out. A faster approach which may however not meet
+with the same level of success is to use a dictionary based attack. In this system, instead of trying out every single permuation of letters and numbers only
+words that occur in the dictionary are used. However this will often lead to even very weak passwords being left uncracked. An enhanced approach is to use
+a dictionary in combination with a few numbers and for example hello123, pizza456 etc.
+
+In the brute force approach, if sufficient time and computing resources are available there is an assurance that the password can in fact be cracked. If the 
+password is likely to contain special characters we just need to change our alphabet to include those possible special characters. 
